@@ -6,3 +6,7 @@
     --borda: #0077ff00; 
 
 }
+body {
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+}
