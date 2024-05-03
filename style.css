@@ -5,13 +5,37 @@
     --fundo-senha: #8504cf59;
     --fundo-texto: #001e4050;
     --borda: #0077ff00; 
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
 
 }
 body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+    font-weight: 400;
 }
 .conteudo-titulo{
     text-align:center;
     margin-top: 80px;
+}
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
+}
+.conteudo-senha{
+    background: var(--funfo-senha);
+    padding: 24px;
+    border-bottom: 6px solid ver(--borda);
+    margin-top: 80px;
+}
+#campo-senha{
+    border:none;
+    color: var(--branco);
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+    width: 70%;
 }
